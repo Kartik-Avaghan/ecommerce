@@ -1,0 +1,107 @@
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.hero img{
+    width: 98vw;
+    border-radius: 40px;
+}
+.heroleft p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    position: absolute;
+    bottom: 250px;
+    left: 70px;
+    color: white;
+    font-weight: bold;
+}
+
+.heroleft button{
+    position: absolute;
+    bottom: 100px;
+    left:450px;
+    border-radius: 40px;
+    padding: 20px;
+    font-size: medium;
+    font-weight: bold;
+    background-color:white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+}
+.hero button:active{
+    background-color: rgb(196, 194, 194);
+}
+
+
+/* section  */ 
+
+.hero_categories h2{
+ text-align: center;
+ margin-top: 30px;
+ font-size: 35px;
+}
+.hero_categories hr{
+    margin-bottom: 30px;
+    width: 80vw;
+}
+
+.hero_category_products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.product_img{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(201, 198, 198);
+    border-radius: 50px 50px 0px 0px;
+}
+.hero_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 480px;
+    border: 0.5px solid black;
+    border-radius: 50px;
+}
+.hero_brand {
+    display: flex;
+    padding: 0px;
+}
+.link{
+    color: black;
+}
+
+.hero_brand h4{
+    margin: 4px;
+}
+.hero_subbrand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero_subbrand h5{
+    margin: 5px;
+}
+
+.hero_subbrand button{
+    font-size: 20px;
+    width: 200px;
+    padding: 8px;
+    border-radius: 30px;
+    background-color: rgb(235, 208, 117);
+}
+.green{
+    background-color: green;
+}

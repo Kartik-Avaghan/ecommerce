@@ -1,0 +1,42 @@
+
+.product{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color:rgb(231, 230, 230) ;
+
+    
+}
+.title{
+    margin: 30px;
+    text-align: center;
+    border: 0.5px solid black;
+    border-radius: 30px;
+    background-color: white;
+    gap: 20px;
+    width: 300px; 
+    height: 500px;
+}
+.title p{
+    font-size: 15px;
+    margin: 10px;
+}
+.title img{
+    background-color: rgb(195, 191, 191);
+    width:300px ;
+    height: 300px;
+    border-radius: 30px 30px 0px 0px;
+
+}
+.title button{
+    width: 150px;
+    border-radius: 50px;
+    background-color: rgb(249, 229, 127);
+    font-size: 20px;
+}
+.link{
+    color: black;
+}

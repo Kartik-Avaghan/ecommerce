@@ -1,0 +1,54 @@
+.login{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+.login_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 10px 10px rgb(179, 177, 177);
+    width: 500px;
+    background-color: rgb(220, 217, 217);
+}
+
+
+.login_details p{
+    font-size: 20px;
+}
+.login_details input{
+    width: 350px;
+    padding: 8px;
+    margin: 10px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+#forgot_link{
+    margin-bottom: 20px;
+    position: relative;
+    right: 100px;
+    bottom: 5px;
+}
+.login_details button{
+    margin: 5px;
+    padding: 8px;
+    border: 0.5px solid black;
+    border-radius: 30px;
+    width: 320px;
+}
+.login_details button:hover{
+    background-color: rgb(178, 175, 175);
+
+}
+
+.login_details p{
+    font-weight:normal;
+    font-size: 15px;
+    position: relative;
+    right: 50px;
+
+}
